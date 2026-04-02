@@ -23,7 +23,7 @@ export default function Contact() {
   }, []);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('lina.bensalem@email.com');
+    navigator.clipboard.writeText('dorsaf.messaoudi@ensia.edu.dz');
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
@@ -62,7 +62,7 @@ export default function Contact() {
 
             <div className="contact-availability">
               <span className="status-dot" />
-              <span>Available for internships and research collaborations — Summer 2025</span>
+              <span>Available for internships and research collaborations — Summer 2026</span>
             </div>
           </div>
 
