@@ -41,9 +41,9 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-name">
-          <span className="hero-name-first">Lina</span>
+          <span className="hero-name-first">Dorsaf</span>
           <br />
-          <span className="hero-name-last">Bensalem</span>
+          <span className="hero-name-last">Messaoudi</span>
         </h1>
 
         <p className="hero-tagline">

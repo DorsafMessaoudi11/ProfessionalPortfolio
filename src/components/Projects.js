@@ -3,52 +3,83 @@ import './Projects.css';
 
 const projects = [
   {
-    id: '01',
-    title: 'NeuralLens',
-    subtitle: 'Interpretability Framework',
-    description: 'A visualization toolkit for understanding what neural networks have actually learned — not what we hoped they\'d learn.',
-    longDesc: 'NeuralLens emerged from a fundamental question: when a model makes a decision, can we trace exactly why? This project builds a layer-by-layer interpretability framework that extracts and visualizes attention patterns, feature activations, and gradient flows in transformer-based models. The goal was not just explanation, but actionable understanding.',
-    tags: ['PyTorch', 'Python', 'D3.js', 'Transformers'],
-    status: 'Research',
-    insight: 'Discovered that 68% of spurious correlations in test data were traceable to 3 attention heads.',
-    github: 'https://github.com',
-    year: '2024',
+    id: "01",
+    title: "Algorithm Visualizer",
+    subtitle: "Interactive Learning System",
+    description:
+      "A visual tool for exploring how classical algorithms evolve step by step.",
+    longDesc:
+      "This project was designed to make algorithm behavior observable rather than abstract. It provides real-time visualizations of search and sorting algorithms, allowing users to track state changes, decision points, and execution flow. The focus was on clarity — transforming algorithmic logic into something intuitive and interactive.",
+    tags: ["React", "JavaScript", "Data Structures"],
+    status: "Completed",
+    insight:
+      "Understanding an algorithm visually often reveals inefficiencies that are not obvious in code.",
+    github: "https://github.com/DorsafMessaoudi11/algorithm-visualizer",
+    year: "2026",
   },
+
   {
-    id: '02',
-    title: 'Mosaic',
-    subtitle: 'Adaptive Learning System',
-    description: 'An intelligent curriculum engine that adapts in real-time to a student\'s knowledge gaps, not their performance scores.',
-    longDesc: 'Traditional adaptive learning systems optimize for performance metrics. Mosaic takes a different approach: it models the latent structure of knowledge itself, identifying not just what a student got wrong, but the underlying conceptual gap that caused the error. Built on a knowledge graph with Bayesian inference for belief updating.',
-    tags: ['Python', 'Neo4j', 'FastAPI', 'React', 'Bayesian Networks'],
-    status: 'Production',
-    insight: 'A student\'s next optimal concept is rarely adjacent to their last failure.',
-    github: 'https://github.com',
-    year: '2024',
+    id: "02",
+    title: "Library Management System",
+    subtitle: "Structured Data System",
+    description:
+      "A desktop application for managing books, users, and borrowing workflows.",
+    longDesc:
+      "This system models the internal structure of a library by organizing books, users, and transactions into a consistent and efficient workflow. It supports borrowing, returning, and inventory tracking while maintaining data integrity. The project emphasizes clean architecture and structured data handling using C++ and SQLite.",
+    tags: ["C++", "SQLite", "wxWidgets"],
+    status: "Completed",
+    insight:
+      "Well-structured data systems reduce complexity more effectively than adding new features.",
+    github: "https://github.com/DorsafMessaoudi11/libraryManagementsystem",
+    year: "2025",
   },
+
   {
-    id: '03',
-    title: 'Veritas',
-    subtitle: 'Claim Verification Engine',
-    description: 'A multi-source reasoning system that evaluates factual claims by constructing evidence graphs, not just retrieving matching sentences.',
-    longDesc: 'Veritas treats fact-checking as a reasoning problem, not a retrieval problem. Given a claim, the system constructs a structured evidence graph from multiple sources, then applies logical inference to determine consistency. It outputs not just a verdict, but a traceable reasoning path that a human can audit.',
-    tags: ['Python', 'spaCy', 'LangChain', 'Neo4j', 'GPT-4'],
-    status: 'In Progress',
-    insight: 'The most misleading claims are technically true — their falsehood lives in what they omit.',
-    github: 'https://github.com',
-    year: '2025',
+    id: "03",
+    title: "E-Commerce Platform",
+    subtitle: "Full-Stack Web Application",
+    description:
+      "A complete online store with product management, cart logic, and user interaction.",
+    longDesc:
+      "This project implements the core structure of an e-commerce system, including product browsing, cart management, and transactional logic. The focus was on building a seamless user flow while maintaining a clear separation between frontend interaction and backend logic. It reflects the complexity of real-world systems in a simplified but functional form.",
+    tags: ["React", "PHP", "MySQL"],
+    status: "Completed",
+    insight:
+      "User experience depends more on flow consistency than on visual complexity.",
+    github: "https://github.com/DorsafMessaoudi11/Ecommercestore",
+    year: "2025",
   },
+
   {
-    id: '04',
-    title: 'Strata',
-    subtitle: 'Multi-Agent Reasoning',
-    description: 'An experimental architecture where specialized AI agents debate and refine answers through structured adversarial dialogue.',
-    longDesc: 'Strata explores whether disagreement between specialized agents produces more reliable outputs than consensus. A proposer agent generates an answer; a critic agent constructs targeted counterarguments; a synthesis agent weighs both and produces a final response. The architecture is inspired by academic peer review and Hegelian dialectics.',
-    tags: ['Python', 'OpenAI API', 'LangGraph', 'FastAPI', 'WebSockets'],
-    status: 'Experimental',
-    insight: 'Productive disagreement requires more structural constraint, not less.',
-    github: 'https://github.com',
-    year: '2025',
+    id: "04",
+    title: "Rendez-vous Manager",
+    subtitle: "Scheduling System",
+    description:
+      "A system for organizing and managing appointments efficiently.",
+    longDesc:
+      "The Rendez-vous Manager focuses on structuring time as a resource. It allows users to create, manage, and track appointments while avoiding conflicts and overlaps. The system emphasizes simplicity in interaction while maintaining logical consistency in scheduling operations.",
+    tags: ["JavaScript", "React"],
+    status: "Completed",
+    insight:
+      "Time management systems fail when they ignore human behavior and unpredictability.",
+    github: "https://github.com/DorsafMessaoudi11/rendez-vous",
+    year: "2026",
+  },
+
+  {
+    id: "05",
+    title: "Sport League Scheduler",
+    subtitle: "Constraint Optimization System",
+    description:
+      "A system that generates fair match schedules under multiple constraints.",
+    longDesc:
+      "This project tackles the complexity of scheduling in competitive environments. It generates match fixtures while respecting constraints such as fairness, home/away balance, and repetition avoidance. The system demonstrates how combinatorial problems can be structured and solved through algorithmic thinking.",
+    tags: ["Python", "Algorithms", "Optimization"],
+    status: "ongoing",
+    insight:
+      "Fairness in scheduling is not intuitive — it must be explicitly modeled.",
+    github: "https://github.com/YourUsername/scheduler",
+    year: "2026",
   },
 ];
 

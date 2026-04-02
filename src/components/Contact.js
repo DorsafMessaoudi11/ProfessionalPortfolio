@@ -29,9 +29,9 @@ export default function Contact() {
   };
 
   const socials = [
-    { label: 'GitHub', handle: '@lina-bensalem', href: 'https://github.com', symbol: '⌥' },
-    { label: 'LinkedIn', handle: 'lina-bensalem', href: 'https://linkedin.com', symbol: '◫' },
-    { label: 'Twitter', handle: '@lina_thinks', href: 'https://twitter.com', symbol: '◉' },
+    { label: 'GitHub', handle: 'dorsaf-messaoudi', href: 'https://github.com/DorsafMessaoudi11', symbol: '⌥' },
+    { label: 'LinkedIn', handle: 'dorsaf-messaoudi', href: 'https://www.linkedin.com/in/dorsaf-messaoudi-01149234a/', symbol: '◫' },
+    { label: 'Twitter', handle: 'dorsaf-messaoudi', href: 'https://twitter.com', symbol: '◉' },
   ];
 
   return (
@@ -72,7 +72,7 @@ export default function Contact() {
                 <span className="email-icon">✉</span>
                 <span>Email</span>
               </div>
-              <p className="email-address">lina.bensalem@email.com</p>
+              <p className="email-address">dorsaf.messaoudi@ensia.edu.dz</p>
               <span className="email-copy">{copied ? '✓ Copied' : 'Click to copy'}</span>
             </div>
 
@@ -103,7 +103,7 @@ export default function Contact() {
         <div className="footer-inner">
           <div className="footer-left">
             <span className="footer-symbol">◈</span>
-            <span className="footer-name">Lina Bensalem</span>
+            <span className="footer-name">Dorsaf Messaoudi</span>
           </div>
           <p className="footer-copy">
             Designed & built with intention · {new Date().getFullYear()}

@@ -9,10 +9,10 @@ const traits = [
 ];
 
 const skills = [
-  { category: 'Languages', items: ['Python', 'JavaScript', 'C++', 'SQL'] },
-  { category: 'AI / ML', items: ['PyTorch', 'TensorFlow', 'scikit-learn', 'Hugging Face'] },
-  { category: 'Web', items: ['React', 'Node.js', 'FastAPI', 'REST APIs'] },
-  { category: 'Tools', items: ['Git', 'Docker', 'Linux', 'Jupyter'] },
+  { category: 'Languages', items: ['Python', 'JavaScript', 'C++', 'SQL','PHP','java'] },
+  { category: 'AI / ML', items: ['PyTorch', 'TensorFlow'] },
+  { category: 'Web', items: ['React', 'Node.js'] },
+  { category: 'Tools', items: ['Git', 'Linux', 'Jupyter'] },
 ];
 
 export default function About() {
