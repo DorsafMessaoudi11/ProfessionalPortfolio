@@ -31,7 +31,7 @@ export default function Navigation() {
     <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
       <div className="nav-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <span className="nav-logo-symbol">◈</span>
-        <span className="nav-logo-text">TS</span>
+        <span className="nav-logo-text">DM</span>
       </div>
       <ul className="nav-links">
         {links.map(link => (
