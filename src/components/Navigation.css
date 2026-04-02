@@ -1,0 +1,125 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+  transition: padding var(--transition), background var(--transition), border-color var(--transition);
+  border-bottom: 1px solid transparent;
+}
+
+.nav--scrolled {
+  padding: 16px 48px;
+  background: rgba(15, 12, 10, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--border-subtle);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: none;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+.nav-logo:hover { opacity: 1; }
+
+.nav-logo-symbol {
+  color: var(--accent-warm);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.nav-logo-text {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--text-primary);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  transition: color var(--transition);
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent-warm);
+  transition: width var(--transition);
+}
+
+.nav-link:hover,
+.nav-link--active {
+  color: var(--accent-beige);
+}
+
+.nav-link:hover::after,
+.nav-link--active::after {
+  width: 100%;
+}
+
+.nav-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6dbd7b;
+  box-shadow: 0 0 8px rgba(109, 189, 123, 0.7);
+  animation: pulse-status 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse-status {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-text {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 20px 24px;
+  }
+  .nav--scrolled {
+    padding: 14px 24px;
+  }
+  .nav-status {
+    display: none;
+  }
+  .nav-links {
+    gap: 24px;
+  }
+}
