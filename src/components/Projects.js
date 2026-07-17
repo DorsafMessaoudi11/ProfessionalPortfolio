@@ -36,13 +36,13 @@ const projects = [
 
   {
     id: "03",
-    title: "E-Commerce Platform",
+    title: "BinaMarket  Platform",
     subtitle: "Full-Stack Web Application",
     description:
       "A complete online store with product management, cart logic, and user interaction.",
     longDesc:
       "This project implements the core structure of an e-commerce system, including product browsing, cart management, and transactional logic. The focus was on building a seamless user flow while maintaining a clear separation between frontend interaction and backend logic. It reflects the complexity of real-world systems in a simplified but functional form.",
-    tags: ["React", "PHP", "MySQL"],
+    tags: ["React", "C#", "MySQL", "TypeScript"],
     status: "Completed",
     insight:
       "User experience depends more on flow consistency than on visual complexity.",
