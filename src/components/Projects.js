@@ -46,7 +46,7 @@ const projects = [
     status: "Completed",
     insight:
       "User experience depends more on flow consistency than on visual complexity.",
-    github: "https://github.com/DorsafMessaoudi11/Ecommercestore",
+    github: "https://github.com/DorsafMessaoudi11/BinaMarket-.git",
     year: "2025",
   },
 
